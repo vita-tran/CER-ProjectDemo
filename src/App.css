@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap);
+
+.App-header,
+.Banner,
+.SocialMedia a,
+.Skills,
+.About,
+.bottom {
+  display: flex;
+}
+
+
+main {
+  background-color: #FFCC99;
+}
+
+h1 {
+  font-size: 4.5em;
+  color: #00CCCC;
+}
+
+h2 {
+  font-size: 3rem;
+  
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.App-header {
+  background-color: white;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Banner {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0rem;
+  background: url("../src/icons/edmonton.jpg") center / cover no-repeat;
+}
+
+.Intro {
+  width: 40%;
+}
+
+.Intro h2,
+.Intro p{
+  color: white;
+}
+
+.Intro, .DisplayPicture {
+  text-align: left;
+  margin: 0 auto; 
+}
+
+/* BUTTONS */
+.ResumeBtn, .ReferencesBtn {
+  font-size: 1rem;
+  width: 35%;
+  padding: 1rem;
+  margin: 1rem 3rem 0rem 0rem;
+  border: 0.2rem solid white;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+}
+
+.ResumeBtn:hover, .ReferencesBtn:hover {
+  transform: scale(1.1);
+  background-color: white;
+  border-color: orange;
+  color: orange;
+  cursor: grab;
+}
+
+/* SOCIAL MEDIA */
+.SocialMedia {
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.SocialMedia a {
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.SocialMedia a:hover {
+  transform: scale(1.2);
+}
+
+/* SKILLS */
+.Skills {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem 0rem;
+  outline: 0 0 0.5rem 0 solid grey;
+}
+
+/* PERSONAL PROJECTS */
+.personal-projects {
+  padding: 3rem 0rem;
+  outline: 0 0 0.5rem 0 solid grey; 
+}
+
+/* ABOUT */
+.About {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 3rem;
+  padding: 3rem;
+  outline: 0.5rem solid grey;
+
+}
+
+.About div{
+  flex-direction: column;
+  width: 40%;
+}
+
+/* Bottom Portion */ 
+.bottom{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border: 0.2rem solid white;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  color: white;
+}
+
+.bottom button {
+  width: 50%;
+}
+.bottom button a {
+  text-decoration: none;
+  color: orange;
+  font-size: 0.9rem;
+}
