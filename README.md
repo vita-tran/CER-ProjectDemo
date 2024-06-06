@@ -9,3 +9,7 @@
 ## End Goals 
 - Creating a more optimized application that is both web and mobile friendly
 - Gaining more knowledge on how to make code more readable
+
+## Current Issues to resolve
+- Images are not formatted right
+- App is not yet made for mobile/md devices
